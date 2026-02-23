@@ -1,0 +1,24 @@
+Neural Network Binary Classification – Metrics Summary
+
+Dataset: Pima Indians Diabetes Test Samples: 154
+
+Confusion Matrix: True Negative (TN): 82 False Positive (FP): 18 False
+Negative (FN): 21 True Positive (TP): 33
+
+Overall Test Accuracy: 75%
+
+Class 0 (No Diabetes): Precision: 0.80 Recall: 0.82 F1-score: 0.81
+Support: 100
+
+Class 1 (Diabetes): Precision: 0.65 Recall: 0.61 F1-score: 0.63 Support:
+54
+
+Macro Average: Precision: 0.72 Recall: 0.72 F1-score: 0.72
+
+Weighted Average: Precision: 0.74 Recall: 0.75 F1-score: 0.75
+
+Analysis Summary: The model achieved 75% accuracy on the test dataset.
+It performs better on the non-diabetic class than the diabetic class.
+Recall for Class 1 (0.61) indicates missed positive cases (false
+negatives). Training and validation curves show stable convergence with
+minimal overfitting.
